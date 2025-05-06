@@ -1,0 +1,39 @@
+.card{
+    width: 413px;
+    
+}
+
+
+.card__image {
+    width: 413PX;
+    height: 413px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.card__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0; 
+}
+
+.card__title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 12px 0 4px;
+}
+
+.card__like-btn {
+    background-image: url(../images/Union.svg);
+    width: 23px;
+    height: 20px;
+    opacity: 0.4;
+    border: none;
+    background-color: transparent;
+    margin: 12px 0 4px;
+}
