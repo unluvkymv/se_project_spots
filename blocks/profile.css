@@ -16,8 +16,8 @@
     font-family: Poppins;
     font-weight: 500;
     font-size: 32px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    line-height: 1;
+    letter-spacing: 0;
     text-overflow: ellipsis;
 }
 
@@ -26,9 +26,11 @@
     font-family: Poppins;
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    line-height: 1;
+    letter-spacing: 0;
     text-overflow: ellipsis;
+    color: rgba(33, 33, 33, 0.7);
+    ;
 }
 
 .profile__column{
@@ -38,7 +40,7 @@
 
 .profile__add-btn {
     margin-left: auto;
-    width: 149px;
+    width: 157px;
     height: 52px;
     margin-top: auto;
     border-radius: 8px;
@@ -49,20 +51,22 @@
     font-family: Poppins;
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
-
+    line-height: 1;
+    letter-spacing: 0;
 }
 
 .profile__edit-btn {
     margin-top: auto;
-    width: 112px;
+    width: 123px;
     opacity: 70%;
     background-color: #FCF5E5;
     border: none;
     font-family: Poppins;
     font-weight: 500;
     font-size: 16px;
-    line-height: 100%;
+    line-height: 1;
+    letter-spacing: 0;
+
 }
 
 .profile__pencil{
