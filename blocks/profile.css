@@ -9,6 +9,7 @@
     width: 190px;
     height: 190px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .profile__name{
@@ -62,6 +63,7 @@
     font-size: 16px;
     line-height: 1;
     letter-spacing: 0;
+    cursor: pointer;
 }
 
 .profile__add-btn:hover {
@@ -70,7 +72,7 @@
 
 .profile__edit-btn {
     margin-top: auto;
-    width: 123px;
+    margin-right: auto;
     opacity: 70%;
     background-color: #FCF5E5;
     border: none;
@@ -79,7 +81,7 @@
     font-size: 16px;
     line-height: 1;
     letter-spacing: 0;
-
+    cursor: pointer;
 }
 
 .profile__edit-btn:hover {
@@ -117,11 +119,10 @@
     }
     
     .profile__name {
-        font-family: "poppins", Arial, Helvetica, sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 100%;
-        letter-spacing: 0%;
+        letter-spacing: 0;
         text-align: center;
         margin: 0 0 6px;     
         max-width: 288px;   
